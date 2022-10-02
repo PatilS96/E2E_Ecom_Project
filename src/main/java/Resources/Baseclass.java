@@ -48,6 +48,7 @@ public class Baseclass {
 	public void LaunchBrowser() throws IOException {
 		browserLaunch();
 		driver.get(prop.getProperty("url"));
+		driver.manage().window().maximize();
 		}
 	
 	/*@AfterMethod
