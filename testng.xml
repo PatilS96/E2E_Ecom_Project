@@ -3,7 +3,11 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Testcases.VerifyHeaderTabs"/>
+      <class name="Testcases.VerifyBrokenLink"/>
+      <class name="Testcases.VerifyCurrencyDropdown"/>
       <class name="Testcases.VerifyLoginPage"/>
+      <class name="Testcases.VerifyHeaderMenu"/>
       <class name="Testcases.VerifyPriceProducts"/>
       <class name="Testcases.VerifySignupPage"/>
     </classes>
