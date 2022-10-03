@@ -15,5 +15,8 @@ public class TestcaseData {
 	public static String telephone="3654799525";
 	public static String SignupPass="Secure123";
 	public static String Confirmpass="Secure123";
+	public static String Euro="€ Euro";
+	public static String Pound="£ Pound Sterling";
+	public static String Doller="$ US Dollar";
 
 }
